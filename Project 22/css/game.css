@@ -1,0 +1,31 @@
+.background    { background-image: /*rgb(52, 166, 251)*/ url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/c/c0/Animated_pixel_stars_box_background_by_driftwoodbones-d7z0h0p.gif/revision/latest?cb=20170221062500);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: white;}
+
+.actor  { position: absolute;  }
+.coin   { border-radius: 5px;
+          background: #eded12;
+          }
+.player { background: #5f44f5; }
+.bird {background: white;}
+.turbo {background: #1bd100;}
+.antiturbo {background: #e28f09;}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.lost .background {
+  background: red;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
